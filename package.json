@@ -1,0 +1,31 @@
+{
+	"name": "@supervueman/cli-cms",
+	"version": "1.0.0",
+	"description": "A CLI to bootstrap my new projects",
+	"main": "src/index.js",
+	"bin": {
+		"@supervueman/vn-cli": "bin/vn-cli",
+		"vn-cli": "bin/vn-cli"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"cli",
+		"vn-cms"
+	],
+	"author": "supervueman",
+	"license": "ISC",
+	"dependencies": {
+		"arg": "^4.1.1",
+		"chalk": "^2.4.2",
+		"esm": "^3.2.25",
+		"figlet": "^1.2.4",
+		"inquirer": "^7.0.0",
+		"pkg-install": "^1.0.0",
+		"simple-git": "^1.126.0"
+	}
+}
