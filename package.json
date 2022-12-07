@@ -26,6 +26,6 @@
 		"figlet": "^1.2.4",
 		"inquirer": "^7.0.0",
 		"pkg-install": "^1.0.0",
-		"simple-git": "^1.126.0"
+		"simple-git": "^3.15.0"
 	}
 }
